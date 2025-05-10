@@ -1,12 +1,38 @@
-# React + Vite
+# Crypto Portfolio Averager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with React and Tailwind CSS that helps cryptocurrency investors track their portfolio's average purchase prices. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📊 Calculate weighted average purchase prices for multiple crypto transactions
+- 💾 Persistent storage using localStorage
+- 📱 Responsive design that works on all devices
+- 🎨 Clean, modern UI with Tailwind CSS
+- ✨ Real-time calculations and updates
+- 🗑️ Easy transaction management (add/remove/clear)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- Tailwind CSS 3
+- Vite
+- LocalStorage for data persistence
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run development server: `npm run dev`
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## Usage
+
+1. Enter the token symbol (e.g., BTC, ETH)
+2. Input the amount purchased
+3. Enter the purchase price per token
+4. View your portfolio summary with total investment and average price
+5. Manage your transactions with add/remove functionality
+
+## License
+
+MIT
